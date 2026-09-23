@@ -54,8 +54,3 @@ For a voicebank with non-standard Korean or Japanese aliases, place
 
 This repository contains source code only. Voicebank WAV, OTO, artwork, and
 the real singer-specific alias map belong in the voicebank distribution.
-
-## Publishing
-
-Verify Korean, Japanese, and English notes in the target host before releasing
-the DLL. Choose and add a license before publishing the repository.
