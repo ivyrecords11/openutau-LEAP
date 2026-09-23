@@ -1,4 +1,4 @@
-# LEAP (Letter-Encoded Automatic Phonemizer)
+# LEAP (Letter-Encoded Automatic multi-language Phonemizer)
 
 *note: this repository is written by codex*
 
