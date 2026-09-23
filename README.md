@@ -1,5 +1,7 @@
 # LEAP (Letter-Encoded Automatic Phonemizer)
 
+*note: this repository is written by codex*
+
 LEAP is an OpenUtau phonemizer for the IV voicebank family. It routes Hangul
 lyrics to Korean CVVC, hiragana and katakana to Japanese Presamp, and Latin
 lyrics to English ARPA+. It appears in the phonemizer menu as **MULTI LEAP**.
