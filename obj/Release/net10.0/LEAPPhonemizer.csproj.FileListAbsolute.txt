@@ -1,0 +1,10 @@
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\obj\Release\net10.0\LEAPPhonemizer.csproj.AssemblyReference.cache
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\obj\Release\net10.0\LEAPPhonemizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\obj\Release\net10.0\LEAPPhonemizer.AssemblyInfoInputs.cache
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\obj\Release\net10.0\LEAPPhonemizer.AssemblyInfo.cs
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\obj\Release\net10.0\LEAPPhonemizer.csproj.CoreCompileInputs.cache
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\bin\Release\net10.0\LEAPPhonemizer.deps.json
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\bin\Release\net10.0\LEAPPhonemizer.dll
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\obj\Release\net10.0\LEAPPhonemizer.dll
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\obj\Release\net10.0\refint\LEAPPhonemizer.dll
+C:\Users\ivyre\OneDrive\문서\OpenUtau\Singers\IV (legacy)\LEAP-Phonemizer\obj\Release\net10.0\ref\LEAPPhonemizer.dll

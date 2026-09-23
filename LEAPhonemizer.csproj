@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Keep this assembly and type identity for existing IV projects. -->
+    <AssemblyName>LEAPhonemizer</AssemblyName>
+    <RootNamespace>LEAP</RootNamespace>
+    <DebugType>embedded</DebugType>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <!-- Override with the host directory containing the OpenUtau API DLLs. -->
+    <OpenUtauBin Condition="'$(OpenUtauBin)' == ''">C:\Program Files\OpenUtau</OpenUtauBin>
+  </PropertyGroup>
+
+  <Target Name="ValidateOpenUtauBin" BeforeTargets="PrepareForBuild"
+          Condition="!Exists('$(OpenUtauBin)\OpenUtau.Core.dll') Or !Exists('$(OpenUtauBin)\OpenUtau.Plugin.Builtin.dll')">
+    <Error Text="OpenUtau API DLLs were not found. Build with -p:OpenUtauBin=C:\path\to\OpenUtau." />
+  </Target>
+
+  <ItemGroup>
+    <Compile Include="src/LEAPhonemizer.cs" />
+    <Reference Include="OpenUtau.Core">
+      <HintPath>$(OpenUtauBin)\OpenUtau.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="OpenUtau.Plugin.Builtin">
+      <HintPath>$(OpenUtauBin)\OpenUtau.Plugin.Builtin.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

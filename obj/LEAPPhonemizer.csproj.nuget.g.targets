@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)sdl3-cs.windows\3.4.14\buildTransitive\SDL3-CS.Windows.targets" Condition="Exists('$(NuGetPackageRoot)sdl3-cs.windows\3.4.14\buildTransitive\SDL3-CS.Windows.targets')" />
+    <Import Project="$(NuGetPackageRoot)sdl3-cs.macos\3.4.14\buildTransitive\SDL3-CS.MacOS.targets" Condition="Exists('$(NuGetPackageRoot)sdl3-cs.macos\3.4.14\buildTransitive\SDL3-CS.MacOS.targets')" />
+    <Import Project="$(NuGetPackageRoot)sdl3-cs.linux\3.4.14\buildTransitive\SDL3-CS.Linux.targets" Condition="Exists('$(NuGetPackageRoot)sdl3-cs.linux\3.4.14\buildTransitive\SDL3-CS.Linux.targets')" />
+  </ImportGroup>
+</Project>
